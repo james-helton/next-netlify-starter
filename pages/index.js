@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import List from '@components/nhlApi/List'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
@@ -15,6 +16,7 @@ export default function Home() {
         <p className="description">
           Does just editing <code>pages/index.js</code> update the pod?
         </p>
+        <List />
       </main>
 
       <Footer />
